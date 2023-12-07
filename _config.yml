@@ -12,12 +12,13 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "catppuccin_latte_mocha" # "default", "catppuccin_latte", "catppuccin_mocha", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "catppuccin_mocha" # "default", "catppuccin_latte", "catppuccin_mocha", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 # minimal_mistakes_skin_dark: "catppuccin_mocha"
+# minimal_mistakes_skin    : "default" # "default", "catppuccin_latte", "catppuccin_mocha", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "The Everything Blog"
+title                    : "Calacuda's Everything Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Eoghan West"
@@ -111,7 +112,7 @@ author:
   location         : "New York City"
   email            : "eowest@gmail.com"
   links:
-   - label: "Email"
+    - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:eowest@gmail.com"
     - label: "Website"
@@ -145,7 +146,6 @@ footer:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       url: "https://gitlab.com/calacuda"
-      # url:
     # - label: "Bitbucket"
     #   icon: "fab fa-fw fa-bitbucket"
     #   # url:
@@ -185,6 +185,8 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+  - flake.nix  # ignore dev-shell
+  - .envrc     # ignore nix dev stuff
 keep_files:
   - .git
   - .svn
@@ -289,6 +291,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
