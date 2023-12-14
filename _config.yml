@@ -187,6 +187,8 @@ exclude:
   - /test # ignore Minimal Mistakes /test
   - flake.nix  # ignore dev-shell
   - .envrc     # ignore nix dev stuff
+  - serve-locally.sh
+  - /_posts/TEMPLATE.md
 keep_files:
   - .git
   - .svn
