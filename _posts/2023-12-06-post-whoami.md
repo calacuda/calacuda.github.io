@@ -22,6 +22,6 @@ Come along and we'll share this journey if you feel like it.
 
 <br>
 
-I look forward to seeing you in cyber-space:
+I look forward to seeing you in cyber-space,
 
-\- Eoghan West (Calacuda)
+Eoghan West (Calacuda)
